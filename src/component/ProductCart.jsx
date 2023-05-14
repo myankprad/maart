@@ -22,7 +22,7 @@ export default function App() {
     const dispatch = useDispatch()
 
   return (
-    <div className="m-2">
+    <div className="product m-2">
       <MDBContainer>
         <MDBRow className="mb-3">
          {

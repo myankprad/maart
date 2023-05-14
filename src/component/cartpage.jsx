@@ -1,4 +1,10 @@
+import React from "react";
+import { useSelector } from "react-redux";
+
+
 const CartPage = () => {
+
+    const {cart,  totalQuantity, totalPrice}= useSelector((state)=> state.allCart)
 
   return (
     <div>
